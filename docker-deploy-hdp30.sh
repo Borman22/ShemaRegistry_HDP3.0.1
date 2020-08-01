@@ -24,6 +24,7 @@ docker run --privileged --name $name -h $hostname --network=cda --network-alias=
        -p 4200:4200 \
        -p 7777:7777 \
        -p 7788:7788 \
+       -p 7789:7789 \
        -p 8000:8000 \
        -p 80:8080 \
        -p 8443:8443 \
